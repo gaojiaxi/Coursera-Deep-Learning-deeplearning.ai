@@ -29,7 +29,7 @@ def relu(Z):
     cache -- a python dictionary containing "A" ; stored for computing the backward pass efficiently
     """
     
-    A = np.maximum(0,Z)
+    A = np.maximum(0, Z)
     
     assert(A.shape == Z.shape)
     
